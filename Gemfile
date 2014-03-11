@@ -9,6 +9,13 @@ gem 'bootstrap-sass', '2.3.2.0'
 #to irreversibly encrypt the password to form the password hash
 gem 'bcrypt-ruby', '3.1.2'
 
+#create fake users
+gem 'faker', '1.1.2'
+
+#paginate
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.8'
